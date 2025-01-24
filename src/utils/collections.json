@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol1.png",
+    "aosDelay": "100"
+  },
+  {
+    "id": "2",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol2.png",
+    "aosDelay": "500"
+  },
+  {
+    "id": "3",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol3.png",
+    "aosDelay": "1000"
+  },
+  {
+    "id": "4",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol4.png",
+    "aosDelay": "1500"
+  }
+]
