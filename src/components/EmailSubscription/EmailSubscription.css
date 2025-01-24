@@ -1,0 +1,85 @@
+.email-subscription-container {
+  margin-bottom: 5rem;
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: white;
+
+  margin-top: 5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.email-container {
+  backdrop-filter: blur(10px);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.email-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
+}
+
+.email-title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .email-title {
+    font-size: 2.25rem;
+    text-align: left;
+  }
+}
+
+.email-input {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 640px) {
+  .email-input {
+    width: 80%;
+  }
+  .email-subscription-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+}
+
+.email-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.email-submit-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 3rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.email-submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.email-submit-btn:focus {
+  outline: none;
+}
