@@ -1,0 +1,36 @@
+.two-sections1 {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
+.first-section1 {
+  margin-left: 10px;
+  /* margin-top: 30px; */
+}
+
+.product-style {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home-color {
+  color: black;
+}
+.health-style {
+  font-size: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media (max-width: 700px) {
+  .two-sections1 {
+    display: grid;
+    grid-template-columns: 220fr 1fr;
+    overflow: hidden;
+    gap: 35px;
+  }
+  .first-section1 {
+    margin-left: 0px;
+    /* margin-top: 30px; */
+  }
+}

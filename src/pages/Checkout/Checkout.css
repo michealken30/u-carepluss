@@ -1,0 +1,21 @@
+.product-style {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.health-style {
+  font-size: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.home-color {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .media-p {
+    font-size: 12px;
+  }
+}

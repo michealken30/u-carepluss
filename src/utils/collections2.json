@@ -1,0 +1,84 @@
+[
+  {
+    "id": "2",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol1.png",
+    "aosDelay": "100"
+  },
+  {
+    "id": "3",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol2.png",
+    "aosDelay": "500"
+  },
+  {
+    "id": "4",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol3.png",
+    "aosDelay": "1000"
+  },
+  {
+    "id": "5",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol4.png",
+    "aosDelay": "1500"
+  },
+  {
+    "id": "6",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol2.png",
+    "aosDelay": "2000"
+  },
+  {
+    "id": "7",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol3.png",
+    "aosDelay": "2500"
+  },
+  {
+    "id": "8",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Image6.png",
+    "aosDelay": "3000"
+  },
+  {
+    "id": "9",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Image5.png",
+    "aosDelay": "3500"
+  },
+
+  {
+    "id": "10",
+    "name": "Lorenzo Dinning Chair",
+    "NewPrice": "17,043",
+    "OldPrice": "20,120",
+    "detail": "2 Seater Sofa (Olive Green)",
+    "image": "/Imagecol1.png",
+    "aosDelay": "4000"
+  }
+]

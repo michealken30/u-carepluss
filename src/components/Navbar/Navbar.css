@@ -1,0 +1,223 @@
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+/* Remove focus outline/blue flash from navbar interactive elements */
+.nav-flex a,
+.nav-flex button,
+.nav-flex input,
+.nav-flex .search-icon,
+.nav-flex .cart-icon,
+.nav-flex .user-icon,
+.nav-flex .navbar-icon {
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
+}
+
+.first-flex {
+  flex: 1;
+}
+
+.logoFlex1 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 3px;
+  color: black;
+  cursor: pointer;
+}
+
+.logo-img {
+  background-color: black;
+  width: 100px;
+}
+.second-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 2;
+}
+
+.help-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.cart-shop {
+  color: rgb(160, 157, 157);
+  margin-top: 5px;
+}
+
+.arrow {
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+.help-span {
+  padding: 0;
+  display: flex;
+}
+
+.search-flex {
+  position: relative;
+}
+
+.btn-signin {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-class {
+  width: 400px;
+  padding: 7px 5px;
+  border-radius: 50px;
+  border-color: rgb(221, 219, 219);
+}
+
+.input-class:focus {
+  outline: none;
+}
+
+.search-icon {
+  color: rgb(203, 201, 201);
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.user-section {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.user-section:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.third-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.media-on {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .second-flex {
+    display: none;
+  }
+  .media-on {
+    display: inline;
+    font-size: 25px;
+  }
+
+  .media-none {
+    display: none;
+  }
+
+  .third-flex {
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  /* .btn-signin {
+    display: none;
+  } */
+
+  .mobile-view {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #0e0e13;
+    z-index: -1;
+    width: 250px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+
+  .mobile-view li {
+    display: block;
+    margin: 25px 40px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .color2 {
+    color: white;
+  }
+}
+
+.hide-mobile-menu {
+  display: none;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 24px;
+  color: #000;
+  color: rgb(160, 157, 157);
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,204 @@
+.card-div2 {
+  display: grid;
+  grid-template-columns: 0.5fr 6fr 1fr;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #e6e7e9;
+  width: 600px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  overflow: wrap;
+}
+
+.round-check {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 22px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%; /* Makes the checkbox round */
+  background-color: white;
+  cursor: pointer;
+}
+
+.round-check2 {
+  width: 20px;
+  height: 20px;
+}
+
+.round-check:checked {
+  background-color: black;
+}
+
+.round-check:checked::after {
+  content: "✔";
+  /* display: block;
+  width: 8px;
+  height: 8px; */
+  border-radius: 50%; /* Makes the check mark round */
+  color: white;
+  position: relative;
+  left: 3.5px;
+}
+
+.font2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.font3 {
+  margin-left: 10px;
+}
+.div-check {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.flex-payment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  font-size: 25px;
+}
+.font-size {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.font-size1 {
+  font-weight: 600;
+  display: block;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.font-size2 {
+  font-size: 14px;
+  max-width: 100px;
+  font-weight: 500;
+}
+
+.font-size3 {
+  font-size: 14px;
+  color: #f78443;
+  cursor: pointer;
+}
+
+.check-div2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  font-weight: 550;
+}
+
+.coupon-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.coupon-input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.coupon-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.coupon-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coupon-button:hover {
+  background-color: #0056b3;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+  .card-div2 {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .font-size1 .font-size1 .font-size2 .font-size3 {
+    font-size: 12px;
+    max-width: 80%;
+  }
+
+  .round-check {
+    margin-right: 8px;
+  }
+
+  .font-size3 {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+
+  .remove-arr {
+    display: none;
+  }
+
+  .check-div3 {
+    margin-left: 40px;
+  }
+
+  .check-div3 {
+    margin-left: 0;
+  }
+
+  .coupon-input {
+    font-size: 12px; /* Adjust font size for input */
+  }
+
+  .coupon-button {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .checkout {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+}

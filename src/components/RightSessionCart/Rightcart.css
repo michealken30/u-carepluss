@@ -1,0 +1,84 @@
+.card {
+  border: 1px solid #bababa73;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #d9d9d930;
+}
+
+.order-sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.charges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(198, 192, 192);
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: rgb(157, 155, 155);
+}
+
+.max-width {
+  max-width: 120px;
+  direction: rtl;
+}
+
+.sub-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.exclude-charges {
+  text-align: end;
+  color: #f78443;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.flex-payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.payment {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.pay-text {
+  font-size: 15px;
+}

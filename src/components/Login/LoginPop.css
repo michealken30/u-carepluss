@@ -1,0 +1,90 @@
+.login-popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+  display: grid;
+  z-index: 1;
+}
+
+.login-popup-container {
+  place-self: start center;
+  margin-top: 90px;
+  width: max(25vw, 330px);
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.forgot-pass {
+  display: inline;
+  text-decoration: underline;
+  text-align: end;
+  cursor: pointer;
+}
+
+.pop-off {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.login-popup-input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-popup-input input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.login-popup-container button {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-popup-condition {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.login-popup-container button .google {
+  background-color: rgb(45, 44, 44);
+}
+
+.google {
+  background-color: rgb(45, 44, 44);
+}
+
+.login-popup-condition input {
+  margin-top: 5px;
+}
+
+.login-popup p span {
+  color: pink;
+  font-weight: 500;
+  cursor: pointer;
+}
