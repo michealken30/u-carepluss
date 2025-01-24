@@ -1,0 +1,17 @@
+.pdt-class {
+  margin: 0;
+  font-weight: 600;
+  padding: 0;
+}
+
+.sale-box4 {
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.check-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

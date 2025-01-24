@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: ecomm
+data:
+  VITE_API_BASE_URI: "http://www.michealken30.com.ng"

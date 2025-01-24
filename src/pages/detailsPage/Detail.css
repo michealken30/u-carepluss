@@ -1,0 +1,31 @@
+.two-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.app p {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.product-style {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home-color {
+  color: black;
+}
+
+.health-style {
+  font-size: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media (max-width: 767px) {
+  .two-sections {
+    display: flex;
+    flex-direction: column;
+  }
+}

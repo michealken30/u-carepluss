@@ -1,0 +1,26 @@
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-flex img {
+  width: 50px;
+}
+
+.full-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+.details {
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+}
